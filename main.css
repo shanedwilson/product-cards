@@ -8,18 +8,47 @@ body {
     flex-wrap: wrap;   
 }
 
-.productCard {
-    background-color: slategrey;
-    width: 30%;
-    margin: 1%;
+.header-productCard {
+    border: solid 1px lightblue;
     text-align: center;
-    border-style: solid;
-    box-shadow: 10px 10px 5px grey;
-}
-.image-productCard {
-    max-width: 100%;
 }
 
-.header-productCard {
-    font-family: Arial, Helvetica, sans-serif;
+.productCard {
+    background-color: white;
+    width: 30%;
+    margin: 1%;
+    box-shadow: 10px 10px 5px grey;
+    padding: 5px 5px;
+}
+
+.description-productCard {
+    text-align: justify;
+}
+
+.image-productCard {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+}
+
+.availability {
+    background-color: darkgray;
+    color: yellow;
+    text-align: left;
+    font-weight: bold;
+}
+
+.productSpecs, .productPrices {
+    font-weight: bold;
+}
+
+.product-duration {
+    font-size: .5em;
+    font-weight: normal;
+}
+
+.product-size, .product-weight, .product-price1, .product-price2, .product-price3 {
+    line-height: 20%;
+    font-size: .75em;
 }
